@@ -13,7 +13,7 @@ repositories {
 
 // tag::jar[]
 jar {
-    baseName = 'gs-gradle'
+    baseName = 'gradle-demo'
     version =  '0.1.0'
 }
 // end::jar[]
@@ -35,8 +35,8 @@ dependencies {
 publishing {
     publications {
         jar(MavenPublication) {
-            groupId 'academy.newtech'
-            artifactId 'gs-gradle'
+            groupId 'marceloweb'
+            artifactId 'gradle-demo'
             version '1.0'
             from components.java
         }
